@@ -20,6 +20,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    background: white;
 }
 
 .logo{
@@ -54,7 +57,6 @@ body{
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: center;
     justify-content: center;
     flex-direction: column;
 }
