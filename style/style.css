@@ -73,3 +73,32 @@ vertical-align: middle;
     height: 10px;
     background-color: #817070;
 }
+.story{
+    max-width: 1440px;
+    height: 632px;
+}
+
+.header2{
+    margin: 60px auto;
+    width: max-content;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+}
+
+.storyCoffee{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cookCoffee{
+    width: 600px;
+    height: 400px;
+}
+
+.text{
+    width: 597px;
+}
+
