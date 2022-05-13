@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -44,4 +45,31 @@ body{
     color: #000000;
     text-decoration: none;
     padding: 23px;
+}
+
+.home{
+    max-width: 1440px;
+    height: 622px;
+    background-image: url(/img/cupOfCoffee.png);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-header{
+    font-weight: 700;
+font-size: 60px;
+line-height: 89px;
+text-align: center;
+color: #FFFFFF;
+vertical-align: middle;
+}
+
+.line{
+    width: 80px;
+    height: 10px;
+    background-color: #817070;
 }
